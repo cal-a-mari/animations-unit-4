@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="eS1-1l-iTN">
-                                <rect key="frame" x="123.5" y="367.5" width="167" height="161"/>
+                                <rect key="frame" x="123.5" y="335" width="167" height="226"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bp3-iI-eOY">
                                         <rect key="frame" x="0.0" y="0.0" width="167" height="31"/>
@@ -35,8 +35,16 @@
                                             <segue destination="Fdy-OK-PfO" kind="show" id="pG6-4H-qjI"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p76-wK-wiu">
+                                        <rect key="frame" x="3" y="130" width="161" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Keyframe Animations"/>
+                                        <connections>
+                                            <segue destination="cti-fc-1BP" kind="show" id="Rid-wi-zoa"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dvf-Tx-mWb">
-                                        <rect key="frame" x="53" y="130" width="61" height="31"/>
+                                        <rect key="frame" x="53" y="195" width="61" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Lottie"/>
                                         <connections>
@@ -57,6 +65,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="132" y="116"/>
+        </scene>
+        <!--Keyframe Animations View Controller-->
+        <scene sceneID="4v8-mt-dwk">
+            <objects>
+                <viewController id="cti-fc-1BP" customClass="KeyframeAnimationsViewController" customModule="AniimationsUnit4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kw9-n7-TCD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="2jE-Hi-44Z"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WYI-Z5-U6N"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PsM-wA-2qm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1484" y="189"/>
         </scene>
         <!--Animatable Properties View Controller-->
         <scene sceneID="ONm-qh-Smt">

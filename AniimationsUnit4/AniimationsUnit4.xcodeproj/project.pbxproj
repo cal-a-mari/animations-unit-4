@@ -22,6 +22,7 @@
 		9984793B27C3E70000A1A624 /* AnimatablePropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984793A27C3E70000A1A624 /* AnimatablePropertiesViewController.swift */; };
 		9984793D27C3E70B00A1A624 /* AnimatingConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984793C27C3E70B00A1A624 /* AnimatingConstraintsViewController.swift */; };
 		9984793F27C3E71100A1A624 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984793E27C3E71100A1A624 /* LottieViewController.swift */; };
+		99C68BE727C4579A00021DCA /* KeyframeAnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C68BE627C4579A00021DCA /* KeyframeAnimationsViewController.swift */; };
 		F6F35D6298789A3A1BF37988 /* Pods_AniimationsUnit4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5DB3B6D4A528DC695B41CD /* Pods_AniimationsUnit4.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		9984793A27C3E70000A1A624 /* AnimatablePropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePropertiesViewController.swift; sourceTree = "<group>"; };
 		9984793C27C3E70B00A1A624 /* AnimatingConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingConstraintsViewController.swift; sourceTree = "<group>"; };
 		9984793E27C3E71100A1A624 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
+		99C68BE627C4579A00021DCA /* KeyframeAnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeAnimationsViewController.swift; sourceTree = "<group>"; };
 		A63082E8FCAF9199F397ECC4 /* Pods-AniimationsUnit4-AniimationsUnit4UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniimationsUnit4-AniimationsUnit4UITests.release.xcconfig"; path = "Target Support Files/Pods-AniimationsUnit4-AniimationsUnit4UITests/Pods-AniimationsUnit4-AniimationsUnit4UITests.release.xcconfig"; sourceTree = "<group>"; };
 		EF5DB3B6D4A528DC695B41CD /* Pods_AniimationsUnit4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AniimationsUnit4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F804394316AC7D377BA15F /* Pods-AniimationsUnit4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniimationsUnit4Tests.release.xcconfig"; path = "Target Support Files/Pods-AniimationsUnit4Tests/Pods-AniimationsUnit4Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				9984790C27C3E3F100A1A624 /* SceneDelegate.swift */,
 				9984790E27C3E3F100A1A624 /* InitialViewController.swift */,
 				9984793A27C3E70000A1A624 /* AnimatablePropertiesViewController.swift */,
+				99C68BE627C4579A00021DCA /* KeyframeAnimationsViewController.swift */,
 				9984793C27C3E70B00A1A624 /* AnimatingConstraintsViewController.swift */,
 				9984793E27C3E71100A1A624 /* LottieViewController.swift */,
 				9982A0C327C3F349005514D0 /* Extra */,
@@ -419,6 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C68BE727C4579A00021DCA /* KeyframeAnimationsViewController.swift in Sources */,
 				9984790F27C3E3F100A1A624 /* InitialViewController.swift in Sources */,
 				9984793F27C3E71100A1A624 /* LottieViewController.swift in Sources */,
 				9984793D27C3E70B00A1A624 /* AnimatingConstraintsViewController.swift in Sources */,

@@ -15,6 +15,7 @@ class AnimatingConstraintsViewController: UIViewController {
   @IBOutlet weak var blueView: UIView!
   
   override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
     animateBlueView()
   }
   

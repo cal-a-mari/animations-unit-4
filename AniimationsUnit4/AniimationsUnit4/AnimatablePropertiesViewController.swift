@@ -53,6 +53,7 @@ class AnimatablePropertiesViewController: UIViewController {
         strongSelf.redView.frame.size = CGSize(width: strongSelf.redView.frame.size.width * 2.0,
                                                height: strongSelf.redView.frame.size.height * 2.0)
         strongSelf.redView.center = strongSelf.view.center
+        strongSelf.redView.layer.opacity = 0.0
       }
     })
   }
