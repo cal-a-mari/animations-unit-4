@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		9984790B27C3E3F100A1A624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984790A27C3E3F100A1A624 /* AppDelegate.swift */; };
 		9984790D27C3E3F100A1A624 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984790C27C3E3F100A1A624 /* SceneDelegate.swift */; };
-		9984790F27C3E3F100A1A624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984790E27C3E3F100A1A624 /* ViewController.swift */; };
+		9984790F27C3E3F100A1A624 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984790E27C3E3F100A1A624 /* InitialViewController.swift */; };
 		9984791227C3E3F100A1A624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9984791027C3E3F100A1A624 /* Main.storyboard */; };
 		9984791427C3E3F300A1A624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9984791327C3E3F300A1A624 /* Assets.xcassets */; };
 		9984791727C3E3F300A1A624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9984791527C3E3F300A1A624 /* LaunchScreen.storyboard */; };
 		9984792227C3E3F300A1A624 /* AniimationsUnit4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984792127C3E3F300A1A624 /* AniimationsUnit4Tests.swift */; };
 		9984792C27C3E3F300A1A624 /* AniimationsUnit4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984792B27C3E3F300A1A624 /* AniimationsUnit4UITests.swift */; };
 		9984792E27C3E3F300A1A624 /* AniimationsUnit4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984792D27C3E3F300A1A624 /* AniimationsUnit4UITestsLaunchTests.swift */; };
+		9984793B27C3E70000A1A624 /* AnimatablePropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984793A27C3E70000A1A624 /* AnimatablePropertiesViewController.swift */; };
+		9984793D27C3E70B00A1A624 /* AnimatingConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984793C27C3E70B00A1A624 /* AnimatingConstraintsViewController.swift */; };
+		9984793F27C3E71100A1A624 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9984793E27C3E71100A1A624 /* LottieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		9984790727C3E3F100A1A624 /* AniimationsUnit4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniimationsUnit4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9984790A27C3E3F100A1A624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9984790C27C3E3F100A1A624 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9984790E27C3E3F100A1A624 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9984790E27C3E3F100A1A624 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		9984791127C3E3F100A1A624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9984791327C3E3F300A1A624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9984791627C3E3F300A1A624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		9984792727C3E3F300A1A624 /* AniimationsUnit4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AniimationsUnit4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9984792B27C3E3F300A1A624 /* AniimationsUnit4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniimationsUnit4UITests.swift; sourceTree = "<group>"; };
 		9984792D27C3E3F300A1A624 /* AniimationsUnit4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniimationsUnit4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9984793A27C3E70000A1A624 /* AnimatablePropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatablePropertiesViewController.swift; sourceTree = "<group>"; };
+		9984793C27C3E70B00A1A624 /* AnimatingConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingConstraintsViewController.swift; sourceTree = "<group>"; };
+		9984793E27C3E71100A1A624 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,10 @@
 			children = (
 				9984790A27C3E3F100A1A624 /* AppDelegate.swift */,
 				9984790C27C3E3F100A1A624 /* SceneDelegate.swift */,
-				9984790E27C3E3F100A1A624 /* ViewController.swift */,
+				9984790E27C3E3F100A1A624 /* InitialViewController.swift */,
+				9984793A27C3E70000A1A624 /* AnimatablePropertiesViewController.swift */,
+				9984793C27C3E70B00A1A624 /* AnimatingConstraintsViewController.swift */,
+				9984793E27C3E71100A1A624 /* LottieViewController.swift */,
 				9984791027C3E3F100A1A624 /* Main.storyboard */,
 				9984791327C3E3F300A1A624 /* Assets.xcassets */,
 				9984791527C3E3F300A1A624 /* LaunchScreen.storyboard */,
@@ -258,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9984790F27C3E3F100A1A624 /* ViewController.swift in Sources */,
+				9984790F27C3E3F100A1A624 /* InitialViewController.swift in Sources */,
+				9984793F27C3E71100A1A624 /* LottieViewController.swift in Sources */,
+				9984793D27C3E70B00A1A624 /* AnimatingConstraintsViewController.swift in Sources */,
+				9984793B27C3E70000A1A624 /* AnimatablePropertiesViewController.swift in Sources */,
 				9984790B27C3E3F100A1A624 /* AppDelegate.swift in Sources */,
 				9984790D27C3E3F100A1A624 /* SceneDelegate.swift in Sources */,
 			);
